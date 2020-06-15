@@ -1,0 +1,166 @@
+form-text {
+  color: red;
+  font-weight: bold;
+}
+
+.fa {
+  padding: 5px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.fa-pencil {
+  border: 1px solid blue;
+
+}
+
+.fa-trash {
+  border: 1px solid red;
+  color: red;
+
+}
+
+.fa-pencil:hover {
+  background-color: blue;
+  color: white;
+}
+
+.fa-trash:hover {
+  background-color: red;
+  color: white;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100px;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links>a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#start,
+#file-drag {
+  width: 100%;
+}
+
+.uploader #start.hidden {
+  display: none;
+}
+
+.uploader #start i.fa {
+  font-size: 50px;
+  margin-bottom: 1rem;
+  transition: all .2s ease-in-out;
+}
+
+.uploader #response {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.uploader #response.hidden {
+  display: none;
+}
+
+.uploader #response #messages {
+  margin-bottom: .5rem;
+}
+
+.uploader #file-image {
+  display: inline;
+  margin: 0 auto .5rem auto;
+  max-width: 180px;
+}
+
+.uploader #file-image.hidden {
+  display: none;
+}
+
+.uploader #notimage {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.uploader #notimage.hidden {
+  display: none;
+}
+
+.images {
+  border: 1px solid #cccccc;
+}
+
+.news-btn {
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+}
+
+.news-btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.upload-btn,
+.auth-btn {
+  border: 1px solid blue;
+  background-color: white;
+  color: blue;
+}
+
+.upload-btn:hover,
+.auth-btn:hover {
+  background-color: blue;
+  color: white;
+}
+
